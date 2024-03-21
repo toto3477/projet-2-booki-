@@ -315,7 +315,7 @@ a {
 .activites .card {
     display: flex;
     flex-direction: column;
-    filter: drop-shadow (0px 3px 15px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     width: 300px;
     padding: 0px;
     margin-right: 30px;
@@ -335,7 +335,7 @@ footer {
     padding-right: 300px;
 }
 
-footer section {
+footer nav {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
@@ -403,13 +403,13 @@ footer a {
     .activites .card {
         display: flex;
         flex-direction: column;
-        filter: drop-shadow (0px 3px 15px rgba(0, 0, 0, 0.1));
+        filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
         width: 170px;
         padding: 0px;
         margin-right: 30px;
     }
 
-    footer section {
+    footer nav {
         margin-right: 100px;
     }
 
@@ -539,3 +539,6 @@ footer a {
     }
 }
 
+@media screen {min-width: 380px;
+    
+}
