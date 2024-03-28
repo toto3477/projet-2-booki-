@@ -14,10 +14,11 @@ body {
     margin: 0 30px;
     display: flex;
     justify-content: center;
+    
 }
 
 #logo { 
-    padding-top: 10px;
+    padding-top: 20px;
     width: 90px;
     }
 
@@ -35,14 +36,14 @@ h1 {
 
 
 .uplink  {
-    width: 20%;
+    width: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .uplink a {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .uplink a:hover {
@@ -142,6 +143,8 @@ h1 {
     margin-right: 25px;
 }
 
+/****** propriétés générales *******/
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -153,15 +156,9 @@ h1 {
 }
 
 
-    display: flex;
-    justify-content: center;
-
-
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 a {
@@ -369,7 +366,7 @@ footer {
 footer div {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    padding-left: 20px;
     width: 30%;
 }
 
