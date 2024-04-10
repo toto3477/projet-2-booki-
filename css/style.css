@@ -88,7 +88,6 @@ h1 {
    text-align: center;
    width: 200px;
    font-size: 1.1em;
-   font-style: ;
    
 }
 
@@ -314,7 +313,7 @@ a {
 }
 
 /****** Activités ***********/
-#activites_h1 {
+#activites_h2 {
     margin-left: 30px;
 }
 
@@ -448,10 +447,6 @@ footer a {
         width: 100%;
         padding: 0px;
         margin-right: 30px;
-    }
-
-    footer div {
-        padding: auto;
     }
 
 }
@@ -632,8 +627,4 @@ footer a {
     }
 }
 
-@media screen {min-width: 380px;{
-    overflow: hidden;
 
-}
-}
